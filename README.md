@@ -48,7 +48,7 @@ If you want to use `Title` facade, add to same file at the `aliases` section
 Type in your console:
 
 ``` bash
-php artisan vendor:publish --provider="Gaaarfild\LaravelTitle\LaravelTitleServiceProvider" --tag=config
+php artisan vendor:publish --provider="Gaaarfild\LaravelTitle\LaravelTitleServiceProvider"
 ```
 
 ## Usage
