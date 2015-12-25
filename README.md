@@ -71,6 +71,12 @@ Title::prepend('Title segment');
 Title::render();
 ```
 
+Additionally, you can add parameters to this method:
+
+ - first parameter `$delimiter` sets the delimiter config manually
+ - second parameter `$no_additions` will cancel suffix and prefix adding to rendered title. 
+Also sets `on_empty` config parameter to empty string.
+
 #### Check if segments exist
 
 ``` PHP

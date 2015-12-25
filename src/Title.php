@@ -51,14 +51,17 @@ class Title
     /**
      * Implode all segments into one string.
      */
-    public function render()
+    public function render($delimiter = null, $no_additions = false)
     {
+        $delimiter = is_null($delimiter) ? config('laravel-title.delimiter') : $delimiter;
+        $result = implode($delimiter, $this->segments);
+
         if ($this->has()) {
-            return config('laravel-title.prefix')
-            . implode(config('laravel-title.delimiter'), $this->segments)
-            . config('laravel-title.suffix');
+
+            return $no_additions ? $result : config('laravel-title.prefix') . $result . config('laravel-title.suffix');
         } else {
-            return config('laravel-title.on_empty');
+
+            return $no_additions ? '' : config('laravel-title.on_empty');
         }
 
     }
@@ -70,15 +73,17 @@ class Title
      */
     public function get()
     {
+
         return $this->segments;
     }
 
  
     /**
-     * Check if any segments added 
+     * Check if any segments added
      */
     public function has()
     {
+
         return count($this->segments) != 0;
     }
        
