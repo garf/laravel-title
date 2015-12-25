@@ -104,6 +104,16 @@ class Title
         return count($this->segments) != 0;
     }
 
+
+    /**
+     * Clear segments
+     */
+    public function clear()
+    {
+
+        return $this->segments = [];
+    }
+
     /**
      * Check if any segments added
      *

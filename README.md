@@ -98,6 +98,14 @@ Title::make(Array $segments, [$delimiter = ' - ', $suffix = '', $prefix = '', $o
 
 Method will return title with your own params
 
+#### Clear title stack
+
+``` PHP
+Title::clear();
+```
+
+Method will empty title segments.
+
 #### Get raw segments array
 
 ``` PHP
