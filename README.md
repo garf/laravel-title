@@ -14,7 +14,7 @@ Sometimes, creating seo-titles may be tricky. Just try this package and you will
 Add
 
 ``` JSON
-"gaaarfild/laravel-title": "~1.0"
+"gaaarfild/laravel-title": "1.*"
 ```
 
 to your `composer.json` file into `require` section.
