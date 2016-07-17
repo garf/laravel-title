@@ -2,8 +2,8 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Laravel Version](https://img.shields.io/badge/laravel-5.1-orange.svg?style=flat-square)](http://laravel.com)
-[![Packagist](https://img.shields.io/packagist/dt/gaaarfild/laravel-title.svg)]()
-[![Licence](https://img.shields.io/packagist/l/gaaarfild/laravel-title.svg)](https://github.com/gaaarfild/laravel-title/blob/master/LICENSE)
+[![Packagist](https://img.shields.io/packagist/dt/garf/laravel-title.svg)]()
+[![Licence](https://img.shields.io/packagist/l/garf/laravel-title.svg)](https://github.com/garf/laravel-title/blob/master/LICENSE)
 
 Let your site to have nice SEO-titles on Laravel 5.
 
@@ -14,7 +14,7 @@ Sometimes, creating seo-titles may be tricky. Just try this package and you will
 Add
 
 ``` JSON
-"gaaarfild/laravel-title": "1.*"
+"garf/laravel-title": "1.*"
 ```
 
 to your `composer.json` file into `require` section.
@@ -30,7 +30,7 @@ When update completed, add to your `config/app.conf` file to `providers` section
 ``` PHP
 'providers' => [
     // ...
-    Gaaarfild\LaravelTitle\LaravelTitleServiceProvider::class,
+    Garf\LaravelTitle\LaravelTitleServiceProvider::class,
 ]
 ```
 
@@ -39,7 +39,7 @@ If you want to use `Title` facade, add to same file at the `aliases` section
 ``` PHP
 'aliases' => [
     // ...
-  'Title' => Gaaarfild\LaravelTitle\TitleFacade::class,
+  'Title' => Garf\LaravelTitle\TitleFacade::class,
 ]
 ```
 
@@ -48,7 +48,7 @@ If you want to use `Title` facade, add to same file at the `aliases` section
 Type in your console:
 
 ``` bash
-php artisan vendor:publish --provider="Gaaarfild\LaravelTitle\LaravelTitleServiceProvider"
+php artisan vendor:publish --provider="Garf\LaravelTitle\LaravelTitleServiceProvider"
 ```
 
 ## Usage
@@ -127,5 +127,5 @@ Send your pull requests to `master` branch.
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/gaaarfild/laravel-title/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/garf/laravel-title/blob/master/LICENSE) for more information.
 

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Gaaarfild\\LaravelTitle\\' => array($baseDir . '/src'),
+    'Garf\\LaravelTitle\\' => array($baseDir . '/src'),
 );

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gaaarfild\LaravelTitle;
+namespace Garf\LaravelTitle;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -30,7 +30,7 @@ class LaravelTitleServiceProvider extends ServiceProvider
         );
 
         $this->registerLaravelTitle();
-        $this->app->alias('Title', \Gaaarfild\LaravelTitle\Title::class);
+        $this->app->alias('Title', \Garf\LaravelTitle\Title::class);
     }
 
     private function registerLaravelTitle()

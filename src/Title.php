@@ -1,6 +1,6 @@
 <?php
 
-namespace Gaaarfild\LaravelTitle;
+namespace Garf\LaravelTitle;
 
 use Illuminate\Support\Traits\Macroable;
 
