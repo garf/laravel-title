@@ -14,7 +14,7 @@ Sometimes, creating seo-titles may be tricky. Just try this package and you will
 Add
 
 ``` JSON
-"garf/laravel-title": "1.*"
+"garf/laravel-title": "2.*"
 ```
 
 to your `composer.json` file into `require` section.
