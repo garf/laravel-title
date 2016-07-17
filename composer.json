@@ -1,5 +1,5 @@
 {
-    "name": "gaaarfild/laravel-title",
+    "name": "garf/laravel-title",
     "description": "Convenient seo-titles assembler for your web application",
     "keywords": ["laravel", "seo", "meta", "Page title"],
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gaaarfild\\LaravelTitle\\": "src/"
+            "Garf\\LaravelTitle\\": "src/"
         }
     }
 }
