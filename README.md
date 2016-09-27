@@ -118,6 +118,12 @@ Title::get();
 Title::toJson();
 ```
 
+## Plans
+
+- add variables to JS export
+- additional meta-tags
+
+
 ## Contributions
 
 Contributions are highly appreciated.
